@@ -18,12 +18,19 @@ export default {
 			}
 		},
 		extend: {
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+        surface: 'hsl(var(--card))',
+        success: '#33CC66',
+        error: '#CC3333',
+        'accent-secondary': '#FF5757',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
